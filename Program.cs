@@ -12,7 +12,7 @@ namespace Console_App
         public static void Tabuada()
         {
             Console.WriteLine("===================================\n");
-            Console.WriteLine("Digite um número intero: ");
+            Console.WriteLine("Digite um número inteiro: ");
 
             int num = int.Parse(Console.ReadLine());
             for (int i = 1; i<=10; i++)
